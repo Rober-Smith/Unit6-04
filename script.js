@@ -8,10 +8,11 @@ document.getElementById('calculate').addEventListener('click', buttonOne)
 function buttonOne () {
   height = document.getElementById('h').value
   height = parseInt(height)
-  base1 = document.getElementById('a').value
-  base1 = parseInt(base1)
-  base2 = document.getElementById('b').value
-  base2 = parseInt(base2)
-  number = (base1 + base2) / 2 * height
- alert(number)
+  side1 = document.getElementById('a').value
+  side1 = parseInt(base1)
+  side2 = document.getElementById('b').value
+  side2 = parseInt(base2)
+  number = (side1 + side2) / 2 * height
+  <!--formula-->
+  alert(number)
 }
