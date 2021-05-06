@@ -16,5 +16,3 @@ function buttonOne () {
 
   alert(number)
 }
-
-
